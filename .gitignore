@@ -361,3 +361,12 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/ADO_NET/App.config
+/ADO_NET/Properties/AssemblyInfo.cs
+/ADO_NET/packages.config
+/DZ_01/Properties/AssemblyInfo.cs
+/DZ_01/App.config
+/DZ_01/packages.config
+/DZ_02/Properties/AssemblyInfo.cs
+/DZ_02/App.config
+/DZ_02/packages.config

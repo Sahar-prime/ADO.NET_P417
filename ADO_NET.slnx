@@ -1,3 +1,7 @@
 <Solution>
+  <Folder Name="/DZ/">
+    <Project Path="DZ_01/DZ_01.csproj" Id="816fcf0f-55da-4412-ab76-1ca6c1bc14e7" />
+    <Project Path="DZ_02/DZ_02.csproj" Id="99346124-17d0-45bf-93e5-a7f2bf7ce63c" />
+  </Folder>
   <Project Path="ADO_NET/ADO_NET.csproj" Id="9b6d89dc-35f0-4e58-b8ad-59c57f27f11d" />
 </Solution>

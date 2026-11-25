@@ -9,7 +9,10 @@ namespace ADO_NET
         SqlConnection conn = null;
         public Program()
         {
-            conn = new SqlConnection(ConfigurationManager.ConnectionStrings["MyconnString"].ConnectionString);
+            conn = 
+                new SqlConnection
+                (ConfigurationManager.ConnectionStrings["MyconnString"]
+                .ConnectionString);
             //conn.ConnectionString = ConfigurationManager.ConnectionStrings["MyConnString"].ConnectionString;
         }
 
@@ -28,7 +31,9 @@ namespace ADO_NET
             try
             {
                 conn.Open();
-                SqlCommand cmd1 = new SqlCommand("select * from Authors; select * from Books", conn);
+                SqlCommand cmd1 =
+                    new SqlCommand("select * from Authors; select * from Books", 
+                    conn);
                 rdr = cmd1.ExecuteReader();
                 int line = 0;
                 do

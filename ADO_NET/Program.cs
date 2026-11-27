@@ -104,3 +104,12 @@ namespace ADO_NET
         }
     }
 }
+
+/*
+ * В App.config
+ * <connectionStrings>
+		<add name="MyconnString" connectionString="Data Source=localhost;
+			 Initial Catalog=Library;
+			 Integrated Security=True;TrustServerCertificate=True;"/>
+	</connectionStrings>
+ */

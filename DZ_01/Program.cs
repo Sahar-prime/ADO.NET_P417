@@ -297,3 +297,13 @@ namespace VegetablesAndFruitsApp
         }
     }
 }
+
+/*
+ * В App.config
+ * <connectionStrings>
+		<add name="VegFruitsDb"
+             connectionString="Data Source=localhost;
+			 Initial Catalog=VegetablesAndFruits;Integrated Security=True;"
+             providerName="System.Data.SqlClient" />
+	</connectionStrings>
+ */

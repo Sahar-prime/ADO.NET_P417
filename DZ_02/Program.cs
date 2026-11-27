@@ -289,3 +289,17 @@ class Program
     }
 
 }
+
+/*
+ * В App.config
+ * <connectionStrings>
+		<add name="WarehouseConnectionString"
+			 connectionString="Server=localhost;Database=WarehouseDB;
+			 Trusted_Connection=True;TrustServerCertificate=True;"
+			 providerName="Microsoft.Data.SqlClient" />
+			<add name="SqlServer"
+			connectionString="Server=localhost;Database=VegetablesAndFruits;Trusted_Connection=True;"
+				providerName="System.Data.SqlClient" />
+
+	</connectionStrings>
+ */

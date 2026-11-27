@@ -206,3 +206,18 @@ namespace ItemsApp
         }
     }
 }
+
+/*
+ * В App.config
+ * <connectionStrings>
+		<add name="SqlServer"
+             connectionString="Server=localhost;
+			 Database=VegetablesAndFruits;
+			 Trusted_Connection=True;"
+             providerName="System.Data.SqlClient" />
+
+		<add name="AccessDb"
+             connectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=fruits.accdb;"
+             providerName="System.Data.OleDb" />
+	</connectionStrings>
+ */
